@@ -1,0 +1,20 @@
+/*
+  This component represents the 3D experience rendered using React Three Fiber and Drei.
+  It includes interactive camera controls, sky background, environment, and an avatar.
+
+  - Import necessary modules and components from libraries.
+  - Create a control for selecting animations using 'useControls' hook.
+  - Return JSX for rendering the 3D scene.
+
+  Components and Features:
+  - OrbitControls: Allows users to navigate the 3D scene.
+  - Sky: Adds a sky background.
+  - Environment: Sets the lighting and background preset.
+  - ContactShadows: Adds shadows to objects.
+  - Avatar component: Displays an avatar with animation controlled by the 'animation' variable.
+  - Conditional rendering of a mesh based on the 'animation' variable.
+  - A large ground plane for the scene.
+
+  Props:
+  - animation: Controls the avatar's animation.
+*/

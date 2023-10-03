@@ -1,0 +1,21 @@
+/*
+  This component represents an avatar in a 3D scene. It's generated using GLTF models and animations.
+  
+  - Import necessary modules and components from libraries.
+  - Set up animation controls and state variables using 'useControls' from Leva library.
+  - Create references and load GLTF models and animations.
+  - Define animations and actions for the avatar.
+  - Use 'useFrame' to update the 3D scene based on 'headFollow' and 'cursorFollow' states.
+  - Use 'useEffect' to handle animation changes and wireframe state changes.
+  - Return JSX for rendering the avatar with its materials and geometry.
+  
+  Components and Features:
+  - 'useControls': A hook for creating UI controls to manipulate variables.
+  - 'useFBX' and 'useGLTF': Hooks for loading 3D models and animations.
+  - 'useAnimations': A hook for handling animations and actions.
+  - 'useFrame': A hook for updating the 3D scene on every frame.
+  - Conditional rendering based on 'headFollow' and 'cursorFollow' states.
+  - Animation management and cleanup on 'animation' change.
+  - Wireframe toggling for materials.
+  - Complex structure for avatar components, including body parts, materials, and skeletons.
+*/
